@@ -16,7 +16,7 @@ let nodeResponseLoaded = false;
 let nodesResponse = [];
 
 async function loadNodes() {
-    axios.get("http://103.75.196.96/nodes")
+    axios.get("https://monitor1.muon.net/nodes")
         .then(({data}) => {
             if (data.success) {
                 nodeResponseLoaded = true;
