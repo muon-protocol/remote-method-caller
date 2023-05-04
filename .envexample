@@ -1,0 +1,8 @@
+BUILD_MODE=production
+#development/production
+
+PORT=3002
+
+NODE_ID=
+NODE_PUB_KEY=
+NODE_PRV_KEY=
